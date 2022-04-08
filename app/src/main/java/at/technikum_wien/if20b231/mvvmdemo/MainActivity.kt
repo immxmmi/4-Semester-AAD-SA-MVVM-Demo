@@ -55,7 +55,7 @@ fun MainScreen(viewModel : DemoViewModel) {
     val scrollState = rememberScrollState(0)
 
     Column {
-        TopAppBar(title =  { Text("ViewModel & Compose") })
+        TopAppBar(title =  { Text("ViewModel & Compose - T1") })
         Button(
             // Wenn gedrückt wird wird die Funktion in der Klasse ausgeführt
             onClick = { viewModel.reload() },
